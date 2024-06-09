@@ -1,0 +1,160 @@
+.popup-container {
+    width: 300px;
+    height: 450px;
+    border: 6px solid #000000;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    }
+
+.popup-container-big {
+    width: 99vw; /* Full width of the viewport */
+    height: 97vh; /* Full height of the viewport */
+    border: 6px solid #000000;
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.music-notes {
+    width: 60px;
+    position: absolute;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 28px;
+    }
+
+.tuned-icon {
+    width: 45px;
+    position: absolute;
+    height: auto;
+    margin-top: 35px;
+    margin-left: 155px;
+    }
+
+.stay-tuned-font {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 45px;
+    }
+
+.textbox-container {
+    width: 80%;
+    height: 240px;
+    overflow-y: scroll;
+    background-color: #fdfdfd;
+    padding: 7.5px;
+    margin-top: 90px;
+    }
+
+.textbox-container.popup2 {
+    height: 280px;
+    width: 90%;
+    padding: 5px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    }
+
+.textbox-container.popup2Big {
+    height: 80%;
+    width: 90%;
+    padding: 5px;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    }
+
+.textbox-container::-webkit-scrollbar {
+    width: 4.5px;
+    }
+    
+.textbox-container::-webkit-scrollbar-track {
+    background: transparent;
+    }
+
+.textbox-container::-webkit-scrollbar-thumb {
+    background: #000000;
+    }
+
+.default-text-font {
+    text-align: left;
+    }
+
+.default-text-font.popup2header {
+    text-align: left;
+    display: -webkit-box;        /* Use Webkit's box model */
+    -webkit-box-orient: vertical; /* Set box orientation to vertical */
+    -webkit-line-clamp: 4;        /* Limit to 2 lines */
+    overflow: hidden;             /* Hide overflowing content */
+    text-overflow: ellipsis;      /* Show ellipsis (...) for overflowed text */
+    white-space: normal;          /* Allow text to wrap within the lines */
+    }
+
+.default-text-font.popup2 {
+    text-align: left;
+    }
+
+.button {
+    margin-top: 12.5px;
+    }
+
+.button2 {
+    margin-top: 6.5px;
+    margin-bottom: -5px;
+    }
+
+.button3 {
+    position: absolute;
+    margin-top: 387px;
+    margin-right: 148px;
+    }
+
+.button5 {
+    position: absolute;
+    margin-top: 387px;
+    margin-right: -137px;
+    }
+
+.button4 {
+    position: absolute;
+    margin-top: 413px;
+    }
+
+.reviews-container {
+    margin-top: 0px;
+    }
+
+.reviews-text {
+    margin: 0;
+    }
+
+.reviews-text2 {
+    margin-top: 5px;
+    }
+
+.reviews-text25 {
+    margin-top: 15px;
+    }
+
+.reviews-text3 {
+    margin-bottom: 1px;
+    }
+
+.reviews-text4 {
+    margin-top: -0px;
+    }
+
+.overall-big {
+    font-size: 13px;
+    margin-top: -1.3px;
+    margin-bottom: -1.3px;
+    }
